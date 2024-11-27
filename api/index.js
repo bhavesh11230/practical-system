@@ -4,7 +4,7 @@ import router from "../routers/feedbackRouter.js";
 import dbConnect from "../config/database.js";
 
 
-dotenv.config();
+
 
 const app = express();
 
