@@ -10,7 +10,7 @@ const router  = express.Router();
 router.post("/admin/create",createAdmin);
 router.post("/teacher/create",createTeacher);
 router.post("/student/create",createStudent);
-router.get("/userall/get",isAdmin,getAllUsers);
+router.get("/userall/get",getAllUsers);
 router.get("/admin/get",isAdmin,getAllAdmin);
 router.get("/AllTeacher/get",isAdmin,getAllTeacher);
 router.get("/AllStudent/get",isAdminOrTeacher,getAllStudent);
